@@ -1,4 +1,7 @@
 language: node_js
+arch:
+   - amd64
+   - ppc64le
 node_js: 12   # Note: windows requires 10 or higher
 dist: bionic # Note: dist>=xenial required by microk8s
 cache: false # as of 20190709 trav-ci.org started loading garbage from the build cache
